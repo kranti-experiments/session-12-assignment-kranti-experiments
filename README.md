@@ -60,6 +60,8 @@ Refactor the Polygon class so that all the calculated properties are lazy proper
 Refactor the Polygons (sequence) type, into an iterable. Make sure also that the elements in the iterator are computed lazily - i.e. you can no longer use a list as an underlying storage mechanism for your polygons.<br/>
 You'll need to implement both an iterable, and an iterator.<br/>
 
+Notebook for the assignment is https://colab.research.google.com/drive/1KdandogUoYxLsRirYFE0lxa0xQ9tndY8#scrollTo=WtXHvaEq0ZOM <br/>
+
 ### Class Overview
 #### Polygon
 Polygon is a class which takes edges, radius as inputs and computes its necessary properties (like area, perimeter, angle etc.) <br/>
